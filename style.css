@@ -102,9 +102,9 @@ main .content{
 }
 
 main .content  .top-content{
-    width: 1oo%;
+    width: 100%;
     display: grid;
-    grid-template-columns;  repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100x;
     gap: 2rem;
     justify-items: center;
@@ -123,12 +123,12 @@ main .content .top-content .top-left img{width: 100x;}
 
 main .content .top-content .top-left .text{width: 100x;}
 
-main .content .top-content .top-left .text .heading{width; 50x;}
+main .content .top-content .top-left .text .heading{width: 50x;}
 
 main .content .top-content .top-left .text .heading h1{
    font-weight: 800;
    font-size: 3.5em;
-   color; rgb(0,0, 26);
+   color: rgb(0,0, 26);
    line-height: 1em;
 
 }
@@ -186,7 +186,7 @@ main .content .top-content .top-right.text:not(nth-of-type(3)){
 
 
 main .content .top-content .top-right .text h3{
-     margin-button: 1rem;
+     margin-bottom: 1rem;
     transition: 0.2s;
     cursor: pointer;
     font-weight: 800;
@@ -209,9 +209,9 @@ main .content .top-content .top-right .text #last{padding-bottom: 0rem;}
 
 
 main .content .bottom-content{
-    wdth: 1oo%;
+    width: 100%;
     display: grid;
-    grid-template-columns;  repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100x;
     gap: 2rem;
     justify-items: center;
